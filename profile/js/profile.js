@@ -1,0 +1,1 @@
+$(document).ready(function(){$("body").on("input",".profile__invest_range input",function(){var a=+$(this).val();isNaN(a)&&(a=0,$(this).val(a)),$(".profile__invest_range input").each(function(){a!=$(this).val()&&$(this).val(a).change()})})});
