@@ -260,7 +260,7 @@ progress::-moz-progress-bar {
 
 .pay__tab_title-active {
 	color: #fff;
-	background-color: rgba(255, 255, 255, .5);
+	background-color: rgba(255, 255, 255, .1);
 	border-color: #fff
 }
 
@@ -313,11 +313,11 @@ progress::-moz-progress-bar {
 
 .pay__payments_item {
 	display: inline-block;
-	padding-left: 30px;
-	padding-right: 10px;
+	padding-left: 32px;
+	padding-right: 12px;
 	border: 1px solid rgba(48, 37, 40, .7);
-	line-height: 30px;
-	height: 30px;
+	line-height: 35px;
+	height: 35px;
 	margin-left: 16px;
 	margin-right: 16px;
 	margin-bottom: 8px;
@@ -481,7 +481,7 @@ select {
 
 .pay__payments_form_content .bitcoin_deposit_address {
 	float: left;
-	height: 30px;
+	height: 34px;
 	line-height: 29px;
 	border-bottom: 1px solid rgba(255, 255, 255, .1);
 	padding-left: 5px;
@@ -493,13 +493,14 @@ select {
 .pay__payments_form_content input {
 	display: inline-block;
 	vertical-align: middle;
-	height: 22px;
+	height: 30px;
 	width: 100%;
 	border: none;
 	background: 0 0;
 	outline: none;
 	color: #fff;
 	font-size: 14px;
+	padding: 0 10px;
 	text-align: center;
 	border-bottom: 1px solid rgba(255, 255, 255, .1)
 }
@@ -578,7 +579,7 @@ select {
 
 .pay__payments_block-value {
 	width: 65px;
-	height: 58px;
+	height: 62px;
 	line-height: 58px;
 	display: inline-block;
 	margin-right: 5px
@@ -587,7 +588,7 @@ select {
 .pay__payments_block-value input {
 	display: inline-block;
 	vertical-align: middle;
-	height: 22px;
+	height: 26px;
 	width: 100%;
 	border: none;
 	background: 0 0;
@@ -595,7 +596,8 @@ select {
 	color: #fff;
 	font-size: 14px;
 	text-align: center;
-	border-bottom: 1px solid rgba(255, 255, 255, .1)
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	padding: 0 10px;
 }
 
 .pay__payments_block-value-two input {

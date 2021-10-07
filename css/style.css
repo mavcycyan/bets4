@@ -625,6 +625,10 @@ button.white_button.login span {
 	position: relative
 }
 
+.main__tabs_top a.live_bets {
+	color: #f00;
+}
+
 .main__tabs_top a:hover {
 	background-color: rgba(255, 255, 255, .5)
 }
@@ -1718,7 +1722,7 @@ footer .container {
 
 .footer__logo {
 	float: left;
-	margin-right: 85px
+	margin-right: 27px
 }
 
 .footer__info {

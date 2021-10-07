@@ -98,22 +98,32 @@
 }
 
 .dataTables_paginate span a:hover {
-	background: rgba(255, 255, 255, .5)
+	background: rgba(255, 255, 255, .5);
+	color: #fff;
 }
 
 .dataTables_paginate span .current {
 	background: rgba(255, 255, 255, .5);
-	border-bottom: 4px solid #fff
+	border-bottom: 4px solid #fff;
+	color: #fff;
 }
 
 .dataTables_paginate>a {
 	display: inline-block;
-	color: #696969;
 	font-size: 12px;
 	text-decoration: none;
 	margin-left: 15px;
 	margin-right: 15px;
-	line-height: 21px
+	line-height: 21px;
+	cursor: pointer;
+	color: #c8c8c8;
+}
+.dataTables_paginate>a:hover {
+	color: #fff;
+}
+.dataTables_paginate>a.disabled {
+	color: #696969;
+	cursor: default;
 }
 
 .dataTables_scroll {

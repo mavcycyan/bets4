@@ -1,1 +1,909 @@
-.my-bets__active_recent-title,.my-bets__recent_active-title{display:none}.my-bets__active_top,.my-bets__recent_top{margin-bottom:15px}.my-bets__recent_title{height:40px;line-height:40px}.my-bets__recent_title:before{top:7px}.my-bets__active,.my-bets__recent{background:rgba(11,0,12,.7);margin-right:9px;width:570px;float:left;padding:15px}.my-bets__recent{margin-right:0}.my-bets__item{margin-bottom:15px}.my-bets__item_top{position:relative;text-align:center;padding-left:18px;font-size:12px;height:17px;line-height:17px}.my-bets__recent .my-bets__item_top{padding-left:0;padding-right:18px}.my-bets__item_time{position:absolute;top:0;left:0;height:17px;line-height:17px;color:#c8c8c8;background:url(../img/time-icon.png) left center no-repeat;margin-left:23px;padding-left:16px;font-size:12px;width:160px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;text-align:left}.my-bets__item_middle{height:80px;text-align:center}.express_bet .my-bets__item_middle{cursor:pointer}.express_bet .my-bets__item_middle .my-bets__item_middle{text-align:center}.express_bet .my-bets__item_middle .matches_count{float:left;width:calc(50% - 19px)}.express_bet .my-bets__item_middle .total_cof{float:right;width:calc(50% - 19px)}.my-bets__express_matches{background:rgba(4,0,4,.5);border:1px solid rgba(255,255,255,.1);border-top:none;font-size:12px;display:none}.my-bets__express_matches .express_match_block{text-align:center;width:100%;background:rgba(11,0,12,.5);border-top:1px solid rgba(255,255,255,.1);border-bottom:1px solid rgba(255,255,255,.1);height:40px;position:relative;transition:all ease .3s}.express_match_block .game_match_icon{width:18px;height:100%;float:left;background-image:url(../img/games-icons.png);background-repeat:no-repeat;top:0;left:0;position:relative}.my-bets__recent .express_match_block .game_match_icon{float:right}.express_match_block__bottom_team-info{display:inline-block;float:left;vertical-align:middle;line-height:40px}.lose .express_match_block__bottom_team-info{color:#686868}.express_match_block__bottom_team-logo{text-align:center;height:22px;margin:0 5px 0 0;width:24px}.express_match_block__bottom_team-logo img{display:inline-block;vertical-align:middle;max-width:100%;max-height:100%}.express_match_block__bottom_team-name{margin-left:13px;width:calc(45% - 28px)}.express_match_block__bottom_team-name.live::before{position:absolute;display:block;content:"";width:6px;height:6px;left:23px;top:50%;margin-top:-3px;border-radius:50%;background:red}.express_match_block__bottom_team-name.upcoming ::before{position:absolute;display:block;content:"...";width:6px;height:6px;left:23px;margin-top:-3px;border-radius:50%}.express_match_block__bottom_team-name span{float:left;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:calc(100% - 29px);text-align:left}.express_match_block__bottom_team-cof{width:50px;text-align:left}.express_match_block__bottom_team-bet-type{text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:calc(55% - 62px);text-align:left}.express_match_block__bottom_team-bet-type div{padding-left:26px;position:relative;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.lose .express_match_block__bottom_team-bet-type div{color:#686868}.express_match_block__bottom_team-bet-type div span{background-image:url(../img/tabs-icons.png);background-repeat:no-repeat;width:17px;height:17px;position:absolute;display:block;top:12px;left:5px}.express_details_arrow_block{display:inline-block;line-height:18px;color:#c8c8c8;vertical-align:middle;font-weight:700;text-overflow:ellipsis;overflow:hidden;white-space:nowrap;width:20px}.express_details_js_arrow{background:url(../img/bet/bet-icon-two.png) center center no-repeat;height:20px;line-height:20px;display:block;cursor:pointer}.express_details_js_arrow.express_details_js_arrow-on{background:url(../img/bet/bet-icon-two_on.png) center center no-repeat}.my-bets__item_right{height:17px;line-height:17px;color:#c8c8c8;position:absolute;right:0;top:0;margin-right:12px;font-size:12px;width:115px;text-align:right;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.my-bets__item_match{display:inline-block;text-align:center;font-size:12px;height:17px;line-height:17px;color:#c8c8c8;padding-right:10px;background:url(../img/my-bets/my-bets-icon-one.png) right center no-repeat;background-position-y:4px;text-decoration:none;vertical-align:top}.my-bets__item .my-bets__item_icon{height:78px}.my-bets__item_team{width:220px;display:inline-block;height:56px;margin-top:10px;float:left;transition:all ease .3s;border:1px solid transparent}.my-bets__item_vs{width:60px;height:56px;display:inline-block;margin-top:10px;text-align:center;padding-top:11px;float:left}.my-bets__item_vs p{height:18px;line-height:18px;color:#c8c8c8;font-size:12px;font-weight:700}.my-bets__item_vs p:nth-child(2){font-weight:400}.my-bets__item_team-img{float:left;height:56px;line-height:56px;width:38px;margin-left:10px}.my-bets__item_team-one .my-bets__item_team-img{float:right;margin-left:0;margin-right:10px}.my-bets__item_team-img img{max-width:100%;max-height:40px;vertical-align:middle;display:inline-block}.my-bets__item_team-name{width:165px;float:left;text-align:center;height:56px;padding-top:10px;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.my-bets__item_team-name p{height:18px;line-height:18px;color:#fff;font-size:14px;font-weight:700;text-overflow:ellipsis;overflow:hidden;white-space:nowrap}.my-bets__item_team-name p:nth-child(2){color:#c8c8c8;font-weight:400;font-size:12px}.resent-bets-wrapper .my-bets__item_team-name p{color:#686868}.resent-bets-wrapper .team_winner .my-bets__item_team-name p{color:#fff}.my-bets__item_team.my_bet_team1_checked,.my-bets__item_team.my_bet_team2_checked{-webkit-box-shadow:0 0 5px 2px rgba(255,255,255,.1);-moz-box-shadow:0 0 5px 2px rgba(255,255,255,.1);box-shadow:0 0 5px 2px rgba(255,255,255,.1);background:rgba(0,0,0,.4);border:1px solid rgba(255,255,255,.2)}.my-bets__item_middle{background:rgba(4,0,4,.5);border:1px solid rgba(255,255,255,.1);height:80px;line-height:80px}.my-bets__item_bottom{height:28px;background:rgba(4,0,4,.3);border:1px solid rgba(255,255,255,.1);border-top:none;position:relative;padding-right:18px}.my-bets__item_bottom-left{position:absolute;top:0;left:11px;height:27px;line-height:27px;color:#c8c8c8;font-size:14px}.my-bets__item_bottom-right{position:absolute;height:27px;line-height:27px;right:11px;top:0;color:#c8c8c8;font-size:14px}.my-bets__item_bottom-right-lose.my-bets__item_bottom-right span{color:#9b0404;font-weight:700}.my-bets__item_bottom-right-win.my-bets__item_bottom-right span{color:#01d26a;font-weight:700}.my-bets__item_bottom-center{text-align:center}.my-bets__item_bottom-center form{display:inline-block}.my-bets__item_bottom-center a,.my-bets__item_bottom-center button.button{display:inline-block;width:84px;height:16px;line-height:16px;text-align:center;color:#000;margin-top:5px;background:#c8c8c8;border-radius:2px;font-size:12px;font-weight:700;text-decoration:none;padding:unset}.my-bets__item_bottom-center a span,.my-bets__item_bottom-center button span{display:inline-block;background:url(../img/my-bets/my-bets-icon-two.png) center center no-repeat;width:8px;height:8px}.form__cancel-bet{display:inline-block}.my-bets__item_team-one{margin-left:10px}.my-bets__recent .my-bets__item_icon{float:right;margin-right:0}.my-bets__item_bottom-center-lose a,.my-bets__item_bottom-center-lose button.button,.my-bets__item_bottom-center-lose button.button:hover{background:#9b0404}.my-bets__item_bottom-center-win a,.my-bets__item_bottom-center-win button.button,.my-bets__item_bottom-center-win button.button:hover{background:#089e53}.my-bets__item_bottom-right-loose span{color:#9b0404}.my-bets__recent_title{margin-bottom:0}.my-bets__recent_weapon{text-align:center;padding-top:5px;padding-bottom:5px;margin-top:-8px;border:1px solid rgba(48,37,40,.7);border-top:none;background:rgba(0,0,0,.5);display:none}.my-bets__recent_weapon-item{width:90px;height:60px;display:inline-block;margin:17px;position:relative}.my-bets__recent_weapon-item img{max-height:100%;max-width:100%}.my-bets__recent_bottom{margin-top:10px;text-align:center;margin-bottom:10px}.my-bets__recent_bottom button{display:inline-block;width:170px;height:30px;line-height:30px;border-radius:2px;color:#000;background:#fff;text-align:center;text-decoration:none;font-size:14px;font-weight:700;transition:all ease .3s}.my-bets__recent_bottom button:hover{background:#c8c8c8}.my-bets__recent_bottom button span{display:inline-block;width:17px;height:13px;background:url(../img/my-bets/my-bets-icon-three.png) center center no-repeat;margin-left:4px}.slider__top-wrapper div:nth-child(1).slider__title-one-two{margin-left:-201px}.slider__top-wrapper div:nth-child(2).slider__title-two-two{margin-left:-67px}.mobile{margin-top:70px}.my-bets__recent_weapon-item-money{position:absolute;top:0;left:0;width:100%;height:12px;line-height:12px;text-align:center;color:#c8c8c8;z-index:10;font-size:11px}.my-bets__recent_weapon-item-title{position:absolute;left:0;bottom:0;text-align:center;font-size:11px;color:#0019de;font-weight:700;height:12px;line-height:12px;z-index:10;width:100%}.active-bets-wrapper{}.active-bets-wrapper .my-bets__item_bottom-left span,.resent-bets-wrapper .my-bets__item_bottom-left span{color:#fff;font-weight:700}.active-bets-wrapper .my-bets__item_bottom-right span{color:#01d26a;font-weight:700}.my-bets__item_bottom-left span.arrow{display:inline-block;width:7px;height:5px;background:url(../img/my-bets/toggle.png) center center no-repeat;margin-left:5px;margin-top:-1px;cursor:pointer;transition:all ease .3s}.my-bets__item_bottom-left span.arrow.my-bets__item_bottom-left-active{transform:rotate(180deg);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg);-ms-transform:rotate(180deg)}.slider__top-wrapper div:nth-child(1):before,.slider-two__top-wrapper div:nth-child(1):before{position:absolute;display:block;content:"...";left:0;top:-5px;color:#fff;font-size:20px}.slider__top-wrapper div:nth-child(2):before,.slider-two__top-wrapper div:nth-child(2):before{display:block;position:absolute;content:". . .";width:0;height:21px;left:9px;top:3px;line-height:5px;font-size:20px;color:#fff;white-space:wrap}.my-bets__item .items__container{margin-top:0}@media screen and (min-width:1000px) and (max-width:1200px){.my-bets__active,.my-bets__recent{width:100%}.my-bets__active{margin-bottom:10px}.my-bets__item_team-one{margin-left:190px}}@media screen and (min-width:768px) and (max-width:999px){.my-bets__active,.my-bets__recent{width:100%}.my-bets__active{margin-bottom:10px}.my-bets__item_team-one{margin-left:90px}}@media screen and (min-width:500px) and (max-width:767px){.my-bets__item_bottom{padding-right:unset;padding-left:18px}.active-bets-wrapper{text-align:center}.my-bets__active,.my-bets__recent{width:100%}.my-bets__active{margin-bottom:10px}.my-bets__item_team{width:180px}.my-bets__item_team-name{width:128px}.my-bets__item_team.team_2{float:right;margin-right:10px}.my-bets__item_vs{width:56px;float:none}.my-bets__recent_active-title,.my-bets__active_title{display:block;float:left}.my-bets__recent_title{float:right}.my-bets__active_recent-title{display:block;float:right}.my-bets__recent_active-title,.my-bets__active_recent-title{height:40px;line-height:40px;font-size:18px;color:#696969;padding-left:24px;position:relative;cursor:pointer}.my-bets__recent_active-title:before{position:absolute;display:block;content:"...";left:0;top:-5px;color:#696969;font-size:20px}.my-bets__active_recent-title:before{display:block;position:absolute;content:". . .";width:0;height:21px;left:9px;top:7px;line-height:5px;font-size:20px;color:#696969}.my-bets__item_time{width:150px}.my-bets{display:none}}@media screen and (max-width:499px){.active-bets-wrapper{text-align:center}.my-bets__item_bottom{padding-right:unset;padding-left:18px;text-align:center}.my-bets__recent_active-title,.my-bets__active_title{display:block;float:left}.my-bets__recent_title{float:right}.my-bets__active_recent-title{display:block;float:right}.my-bets__recent_active-title,.my-bets__active_recent-title{height:40px;line-height:40px;font-size:18px;color:#696969;padding-left:24px;position:relative;cursor:pointer}.my-bets__recent_active-title:before{position:absolute;display:block;content:"...";left:0;top:-5px;color:#696969;font-size:20px}.my-bets__active_recent-title:before{display:block;position:absolute;content:". . .";width:0;height:21px;left:9px;top:7px;line-height:5px;font-size:20px;color:#696969}.my-bets__item_time{margin-left:4px;width:120px}.my-bets__item_right{margin-right:4px;width:90px}.my-bets__recent{display:none}.my-bets__active,.my-bets__recent{width:100%}.my-bets__item_team{float:left;width:38%;text-align:center;margin-right:0;margin-top:2px;height:98px}.my-bets__item_team.team_2{float:right;margin-right:5px}.my-bets__item_middle{height:104px;position:relative;line-height:104px;padding-left:18px}.my-bets__item .my-bets__item_icon{position:absolute;top:0;left:0;height:102px}.my-bets__item_team-img,.my-bets__item_team-one .my-bets__item_team-img{float:none;width:100%;text-align:center;height:40px;margin-left:0;margin-right:0}.my-bets__item_team-one{}.my-bets__item_team-name{width:100%;float:none}.my-bets__item_vs{width:16%;margin-left:0;margin-top:26px;padding-top:0;height:36px;float:none}.my-bets__item_bottom{height:50px}.my-bets__item_bottom-left{position:relative;text-align:center;left:0;width:30%;float:left;margin-top:10px}.my-bets__item_bottom-center{padding-bottom:5px;width:30%;position:relative;display:inline-block}.my-bets__item_bottom-center.my-bets__item_bottom-center-lose,.my-bets__item_bottom-center.my-bets__item_bottom-center-return,.my-bets__item_bottom-center.my-bets__item_bottom-center-win{margin-top:11px}.my-bets__item_bottom-right{position:relative;text-align:center;right:0;width:30%;float:right;margin-top:10px}.my-bets__recent_weapon-item{margin:10px}.my-bets{display:none}}
+.my-bets__active_recent-title,
+.my-bets__recent_active-title {
+    display: none
+}
+
+.my-bets__active_top,
+.my-bets__recent_top {
+    margin-bottom: 15px
+}
+
+.my-bets__recent_title {
+    height: 40px;
+    line-height: 40px
+}
+
+.my-bets__recent_title:before {
+    top: 7px
+}
+
+.my-bets__active,
+.my-bets__recent {
+    background: rgba(11, 0, 12, .7);
+    margin-right: 9px;
+    width: 570px;
+    float: left;
+    padding: 15px 15px 25px
+}
+
+.my-bets__recent {
+    margin-right: 0
+}
+
+.my-bets__item {
+    margin-bottom: 15px
+}
+
+.my-bets__item_top {
+    position: relative;
+    text-align: center;
+    padding-left: 18px;
+    font-size: 12px;
+    height: 17px;
+    line-height: 17px
+}
+
+.my-bets__recent .my-bets__item_top {
+    padding-left: 0;
+    padding-right: 18px
+}
+
+.my-bets__item_time {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 17px;
+    line-height: 17px;
+    color: #c8c8c8;
+    background: url(../img/time-icon.png) left center no-repeat;
+    margin-left: 23px;
+    padding-left: 16px;
+    font-size: 12px;
+    width: 160px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-align: left
+}
+
+.my-bets__item_middle {
+    height: 80px;
+    text-align: center
+}
+
+.express_bet .my-bets__item_middle {
+    cursor: pointer
+}
+
+.express_bet .my-bets__item_middle .my-bets__item_middle {
+    text-align: center
+}
+
+.express_bet .my-bets__item_middle .matches_count {
+    float: left;
+    width: calc(50% - 19px)
+}
+
+.express_bet .my-bets__item_middle .total_cof {
+    float: right;
+    width: calc(50% - 19px)
+}
+
+.my-bets__express_matches {
+    background: rgba(4, 0, 4, .5);
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-top: none;
+    font-size: 12px;
+    display: none
+}
+
+.my-bets__express_matches .express_match_block {
+    text-align: center;
+    width: 100%;
+    background: rgba(11, 0, 12, .5);
+    border-top: 1px solid rgba(255, 255, 255, .1);
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+    height: 40px;
+    position: relative;
+    transition: all ease .3s
+}
+
+.express_match_block .game_match_icon {
+    width: 18px;
+    height: 100%;
+    float: left;
+    background-image: url(../img/games-icons.png);
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    position: relative
+}
+
+.my-bets__recent .express_match_block .game_match_icon {
+    float: right
+}
+
+.express_match_block__bottom_team-info {
+    display: inline-block;
+    float: left;
+    vertical-align: middle;
+    line-height: 40px
+}
+
+.lose .express_match_block__bottom_team-info {
+    color: #686868
+}
+
+.express_match_block__bottom_team-logo {
+    text-align: center;
+    height: 22px;
+    margin: 0 5px 0 0;
+    width: 24px
+}
+
+.express_match_block__bottom_team-logo img {
+    display: inline-block;
+    vertical-align: middle;
+    max-width: 100%;
+    max-height: 100%
+}
+
+.express_match_block__bottom_team-name {
+    margin-left: 13px;
+    width: calc(45% - 28px)
+}
+
+.express_match_block__bottom_team-name.live::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 6px;
+    height: 6px;
+    left: 23px;
+    top: 50%;
+    margin-top: -3px;
+    border-radius: 50%;
+    background: red
+}
+
+.express_match_block__bottom_team-name.upcoming ::before {
+    position: absolute;
+    display: block;
+    content: "...";
+    width: 6px;
+    height: 6px;
+    left: 23px;
+    margin-top: -3px;
+    border-radius: 50%
+}
+
+.express_match_block__bottom_team-name span {
+    float: left;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: calc(100% - 29px);
+    text-align: left
+}
+
+.express_match_block__bottom_team-cof {
+    width: 50px;
+    text-align: left
+}
+
+.express_match_block__bottom_team-bet-type {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: calc(55% - 62px);
+    text-align: left
+}
+
+.express_match_block__bottom_team-bet-type div {
+    padding-left: 26px;
+    position: relative;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.lose .express_match_block__bottom_team-bet-type div {
+    color: #686868
+}
+
+.express_match_block__bottom_team-bet-type div span {
+    background-image: url(../img/tabs-icons.png);
+    background-repeat: no-repeat;
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    display: block;
+    top: 12px;
+    left: 5px
+}
+
+.express_details_arrow_block {
+    display: inline-block;
+    line-height: 18px;
+    color: #c8c8c8;
+    vertical-align: middle;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    width: 20px
+}
+
+.express_details_js_arrow {
+    background: url(../img/bet/bet-icon-two.png) center center no-repeat;
+    height: 20px;
+    line-height: 20px;
+    display: block;
+    cursor: pointer
+}
+
+.express_details_js_arrow.express_details_js_arrow-on {
+    background: url(../img/bet/bet-icon-two_on.png) center center no-repeat
+}
+
+.my-bets__item_right {
+    height: 17px;
+    line-height: 17px;
+    color: #c8c8c8;
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-right: 12px;
+    font-size: 12px;
+    width: 115px;
+    text-align: right;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.my-bets__item_match {
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    height: 17px;
+    line-height: 17px;
+    color: #c8c8c8;
+    padding-right: 10px;
+    background: url(../img/my-bets/my-bets-icon-one.png) right center no-repeat;
+    background-position-y: 4px;
+    text-decoration: none;
+    vertical-align: top
+}
+
+.my-bets__item .my-bets__item_icon {
+    height: 78px
+}
+
+.my-bets__item_team {
+    width: 220px;
+    display: inline-block;
+    height: 56px;
+    margin-top: 10px;
+    float: left;
+    transition: all ease .3s;
+    border: 1px solid transparent
+}
+
+.my-bets__item_vs {
+    width: 60px;
+    height: 56px;
+    display: inline-block;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 11px;
+    float: left
+}
+
+.my-bets__item_vs p {
+    height: 18px;
+    line-height: 18px;
+    color: #c8c8c8;
+    font-size: 12px;
+    font-weight: 700
+}
+
+.my-bets__item_vs p:nth-child(2) {
+    font-weight: 400
+}
+
+.my-bets__item_team-img {
+    float: left;
+    height: 56px;
+    line-height: 56px;
+    width: 38px;
+    margin-left: 10px
+}
+
+.my-bets__item_team-one .my-bets__item_team-img {
+    float: right;
+    margin-left: 0;
+    margin-right: 10px
+}
+
+.my-bets__item_team-img img {
+    max-width: 100%;
+    max-height: 40px;
+    vertical-align: middle;
+    display: inline-block
+}
+
+.my-bets__item_team-name {
+    width: 165px;
+    float: left;
+    text-align: center;
+    height: 56px;
+    padding-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.my-bets__item_team-name p {
+    height: 18px;
+    line-height: 18px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap
+}
+
+.my-bets__item_team-name p:nth-child(2) {
+    color: #c8c8c8;
+    font-weight: 400;
+    font-size: 12px
+}
+
+.resent-bets-wrapper .my-bets__item_team-name p {
+    color: #686868
+}
+
+.resent-bets-wrapper .team_winner .my-bets__item_team-name p {
+    color: #fff
+}
+
+.my-bets__item_team.my_bet_team1_checked,
+.my-bets__item_team.my_bet_team2_checked {
+    -webkit-box-shadow: 0 0 5px 2px rgba(255, 255, 255, .1);
+    -moz-box-shadow: 0 0 5px 2px rgba(255, 255, 255, .1);
+    box-shadow: 0 0 5px 2px rgba(255, 255, 255, .1);
+    background: rgba(0, 0, 0, .4);
+    border: 1px solid rgba(255, 255, 255, .2)
+}
+
+.my-bets__item_middle {
+    background: rgba(4, 0, 4, .5);
+    border: 1px solid rgba(255, 255, 255, .1);
+    height: 80px;
+    line-height: 80px
+}
+
+.my-bets__item_bottom {
+    height: 28px;
+    background: rgba(4, 0, 4, .3);
+    border: 1px solid rgba(255, 255, 255, .1);
+    border-top: none;
+    position: relative;
+    padding-right: 18px
+}
+
+.my-bets__item_bottom-left {
+    position: absolute;
+    top: 0;
+    left: 11px;
+    height: 27px;
+    line-height: 27px;
+    color: #c8c8c8;
+    font-size: 14px
+}
+
+.my-bets__item_bottom-right {
+    position: absolute;
+    height: 27px;
+    line-height: 27px;
+    right: 11px;
+    top: 0;
+    color: #c8c8c8;
+    font-size: 14px
+}
+
+.my-bets__item_bottom-right-lose.my-bets__item_bottom-right span {
+    color: #9b0404;
+    font-weight: 700
+}
+
+.my-bets__item_bottom-right-win.my-bets__item_bottom-right span {
+    color: #01d26a;
+    font-weight: 700
+}
+
+.my-bets__item_bottom-center {
+    text-align: center
+}
+
+.my-bets__item_bottom-center form {
+    display: inline-block
+}
+
+.my-bets__item_bottom-center a,
+.my-bets__item_bottom-center button.button {
+    display: inline-block;
+    width: 84px;
+    height: 16px;
+    line-height: 16px;
+    text-align: center;
+    color: #000;
+    margin-top: 5px;
+    background: #c8c8c8;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: unset
+}
+
+.my-bets__item_bottom-center a span,
+.my-bets__item_bottom-center button span {
+    display: inline-block;
+    background: url(../img/my-bets/my-bets-icon-two.png) center center no-repeat;
+    width: 8px;
+    height: 8px
+}
+
+.form__cancel-bet {
+    display: inline-block
+}
+
+.my-bets__item_team-one {
+    margin-left: 10px
+}
+
+.my-bets__recent .my-bets__item_icon {
+    float: right;
+    margin-right: 0
+}
+
+.my-bets__item_bottom-center-lose a,
+.my-bets__item_bottom-center-lose button.button,
+.my-bets__item_bottom-center-lose button.button:hover {
+    background: #9b0404
+}
+
+.my-bets__item_bottom-center-win a,
+.my-bets__item_bottom-center-win button.button,
+.my-bets__item_bottom-center-win button.button:hover {
+    background: #089e53
+}
+
+.my-bets__item_bottom-right-loose span {
+    color: #9b0404
+}
+
+.my-bets__recent_title {
+    margin-bottom: 0
+}
+
+.my-bets__recent_weapon {
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: -8px;
+    border: 1px solid rgba(48, 37, 40, .7);
+    border-top: none;
+    background: rgba(0, 0, 0, .5);
+    display: none
+}
+
+.my-bets__recent_weapon-item {
+    width: 90px;
+    height: 60px;
+    display: inline-block;
+    margin: 17px;
+    position: relative
+}
+
+.my-bets__recent_weapon-item img {
+    max-height: 100%;
+    max-width: 100%
+}
+
+.my-bets__recent_bottom {
+    margin-top: 10px;
+    text-align: center;
+    margin-bottom: 10px
+}
+
+.my-bets__recent_bottom button {
+    display: inline-block;
+    width: 170px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 2px;
+    color: #000;
+    background: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 700;
+    transition: all ease .3s
+}
+
+.my-bets__recent_bottom button:hover {
+    background: #c8c8c8
+}
+
+.my-bets__recent_bottom button span {
+    display: inline-block;
+    width: 17px;
+    height: 13px;
+    background: url(../img/my-bets/my-bets-icon-three.png) center center no-repeat;
+    margin-left: 4px
+}
+
+.slider__top-wrapper div:nth-child(1).slider__title-one-two {
+    margin-left: -201px
+}
+
+.slider__top-wrapper div:nth-child(2).slider__title-two-two {
+    margin-left: -67px
+}
+
+.mobile {
+    margin-top: 70px
+}
+
+.my-bets__recent_weapon-item-money {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 12px;
+    line-height: 12px;
+    text-align: center;
+    color: #c8c8c8;
+    z-index: 10;
+    font-size: 11px
+}
+
+.my-bets__recent_weapon-item-title {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    font-size: 11px;
+    color: #0019de;
+    font-weight: 700;
+    height: 12px;
+    line-height: 12px;
+    z-index: 10;
+    width: 100%
+}
+
+.active-bets-wrapper, .resent-bets-wrapper.wrapper-for-slider {
+    text-align: center;
+    color: #696969;
+}
+
+.active-bets-wrapper .my-bets__item_bottom-left span,
+.resent-bets-wrapper .my-bets__item_bottom-left span {
+    color: #fff;
+    font-weight: 700
+}
+
+.active-bets-wrapper .my-bets__item_bottom-right span {
+    color: #01d26a;
+    font-weight: 700
+}
+
+.my-bets__item_bottom-left span.arrow {
+    display: inline-block;
+    width: 7px;
+    height: 5px;
+    background: url(../img/my-bets/toggle.png) center center no-repeat;
+    margin-left: 5px;
+    margin-top: -1px;
+    cursor: pointer;
+    transition: all ease .3s
+}
+
+.my-bets__item_bottom-left span.arrow.my-bets__item_bottom-left-active {
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    -ms-transform: rotate(180deg)
+}
+
+.slider__top-wrapper div:nth-child(1):before,
+.slider-two__top-wrapper div:nth-child(1):before {
+    position: absolute;
+    display: block;
+    content: "...";
+    left: 0;
+    top: -5px;
+    color: #fff;
+    font-size: 20px
+}
+
+.slider__top-wrapper div:nth-child(2):before,
+.slider-two__top-wrapper div:nth-child(2):before {
+    display: block;
+    position: absolute;
+    content: ". . .";
+    width: 0;
+    height: 21px;
+    left: 9px;
+    top: 3px;
+    line-height: 5px;
+    font-size: 20px;
+    color: #fff;
+    white-space: wrap
+}
+
+.my-bets__item .items__container {
+    margin-top: 0
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+    .my-bets__active,
+    .my-bets__recent {
+        width: 100%
+    }
+    .my-bets__active {
+        margin-bottom: 10px
+    }
+    .my-bets__item_team-one {
+        margin-left: 190px
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:999px) {
+    .my-bets__active,
+    .my-bets__recent {
+        width: 100%
+    }
+    .my-bets__active {
+        margin-bottom: 10px
+    }
+    .my-bets__item_team-one {
+        margin-left: 90px
+    }
+}
+
+@media screen and (min-width:500px) and (max-width:767px) {
+    .my-bets__item_bottom {
+        padding-right: unset;
+        padding-left: 18px
+    }
+    .active-bets-wrapper {
+        text-align: center
+    }
+    .my-bets__active,
+    .my-bets__recent {
+        width: 100%
+    }
+    .my-bets__active {
+        margin-bottom: 10px
+    }
+    .my-bets__item_team {
+        width: 180px
+    }
+    .my-bets__item_team-name {
+        width: 128px
+    }
+    .my-bets__item_team.team_2 {
+        float: right;
+        margin-right: 10px
+    }
+    .my-bets__item_vs {
+        width: 56px;
+        float: none
+    }
+    .my-bets__recent_active-title,
+    .my-bets__active_title {
+        display: block;
+        float: left
+    }
+    .my-bets__recent_title {
+        float: right
+    }
+    .my-bets__active_recent-title {
+        display: block;
+        float: right
+    }
+    .my-bets__recent_active-title,
+    .my-bets__active_recent-title {
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        color: #696969;
+        padding-left: 24px;
+        position: relative;
+        cursor: pointer
+    }
+    .my-bets__recent_active-title:before {
+        position: absolute;
+        display: block;
+        content: "...";
+        left: 0;
+        top: -5px;
+        color: #696969;
+        font-size: 20px
+    }
+    .my-bets__active_recent-title:before {
+        display: block;
+        position: absolute;
+        content: ". . .";
+        width: 0;
+        height: 21px;
+        left: 9px;
+        top: 7px;
+        line-height: 5px;
+        font-size: 20px;
+        color: #696969
+    }
+    .my-bets__item_time {
+        width: 150px
+    }
+    .my-bets {
+        display: none
+    }
+}
+
+@media screen and (max-width:499px) {
+    .active-bets-wrapper {
+        text-align: center
+    }
+    .my-bets__item_bottom {
+        padding-right: unset;
+        padding-left: 18px;
+        text-align: center
+    }
+    .my-bets__recent_active-title,
+    .my-bets__active_title {
+        display: block;
+        float: left
+    }
+    .my-bets__recent_title {
+        float: right
+    }
+    .my-bets__active_recent-title {
+        display: block;
+        float: right
+    }
+    .my-bets__recent_active-title,
+    .my-bets__active_recent-title {
+        height: 40px;
+        line-height: 40px;
+        font-size: 18px;
+        color: #696969;
+        padding-left: 24px;
+        position: relative;
+        cursor: pointer
+    }
+    .my-bets__recent_active-title:before {
+        position: absolute;
+        display: block;
+        content: "...";
+        left: 0;
+        top: -5px;
+        color: #696969;
+        font-size: 20px
+    }
+    .my-bets__active_recent-title:before {
+        display: block;
+        position: absolute;
+        content: ". . .";
+        width: 0;
+        height: 21px;
+        left: 9px;
+        top: 7px;
+        line-height: 5px;
+        font-size: 20px;
+        color: #696969
+    }
+    .my-bets__item_time {
+        margin-left: 4px;
+        width: 120px
+    }
+    .my-bets__item_right {
+        margin-right: 4px;
+        width: 90px
+    }
+    .my-bets__recent {
+        display: none
+    }
+    .my-bets__active,
+    .my-bets__recent {
+        width: 100%
+    }
+    .my-bets__item_team {
+        float: left;
+        width: 38%;
+        text-align: center;
+        margin-right: 0;
+        margin-top: 2px;
+        height: 98px
+    }
+    .my-bets__item_team.team_2 {
+        float: right;
+        margin-right: 5px
+    }
+    .my-bets__item_middle {
+        height: 104px;
+        position: relative;
+        line-height: 104px;
+        padding-left: 18px
+    }
+    .my-bets__item .my-bets__item_icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 102px
+    }
+    .my-bets__item_team-img,
+    .my-bets__item_team-one .my-bets__item_team-img {
+        float: none;
+        width: 100%;
+        text-align: center;
+        height: 40px;
+        margin-left: 0;
+        margin-right: 0
+    }
+    .my-bets__item_team-one {}
+    .my-bets__item_team-name {
+        width: 100%;
+        float: none
+    }
+    .my-bets__item_vs {
+        width: 16%;
+        margin-left: 0;
+        margin-top: 26px;
+        padding-top: 0;
+        height: 36px;
+        float: none
+    }
+    .my-bets__item_bottom {
+        height: 50px
+    }
+    .my-bets__item_bottom-left {
+        position: relative;
+        text-align: center;
+        left: 0;
+        width: 30%;
+        float: left;
+        margin-top: 10px
+    }
+    .my-bets__item_bottom-center {
+        padding-bottom: 5px;
+        width: 30%;
+        position: relative;
+        display: inline-block
+    }
+    .my-bets__item_bottom-center.my-bets__item_bottom-center-lose,
+    .my-bets__item_bottom-center.my-bets__item_bottom-center-return,
+    .my-bets__item_bottom-center.my-bets__item_bottom-center-win {
+        margin-top: 11px
+    }
+    .my-bets__item_bottom-right {
+        position: relative;
+        text-align: center;
+        right: 0;
+        width: 30%;
+        float: right;
+        margin-top: 10px
+    }
+    .my-bets__recent_weapon-item {
+        margin: 10px
+    }
+    .my-bets {
+        display: none
+    }
+}
