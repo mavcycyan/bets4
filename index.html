@@ -34,7 +34,8 @@
 	<link href="css/additions.css" rel="stylesheet" type="text/css">
     <link href="css/login-page.css" rel="stylesheet" type="text/css">
 
-	<link href="css/popper.css" rel="stylesheet" type="text/css">
+	<link href="css/popper.css" rel="stylesheet" type="text/css">      
+    <link href="css/style_new.css" rel="stylesheet" type="text/css">
 	
 
     <script type="text/javascript" async="" src="https://cdn.jsdelivr.net/npm/yandex-metrica-watch/watch.js"></script><script src="https://connect.facebook.net/signals/config/698972667605689?v=2.9.47&amp;r=stable" async=""></script><script async="" src="https://connect.facebook.net/en_US/fbevents.js"></script><script src="js/lazysizes.min.js.Без названия"></script>
@@ -50,84 +51,127 @@
             </div>
             <div class="header__left">
                 <div class="header__logo">
-                    <a href="/" title="Ставки КС ГО и Дота 2 скинами на матчи Dota 2 и CS GO"></a>
+                    <a href="/" title="Bet skins on CS:GO and Dota 2 matches"></a>
                 </div>
                 <div class="header__language">
                     <div class="all_lang">
                         
-                        <a href="https://bets4.net/" title="Bet skins on CS:GO and Dota 2 matches"><img src="img/language-icon-en.png">&nbsp;English</a>
+                         
+                         <a href="/ru/my-items/" title="Ставки КС ГО и Дота 2 скинами на матчи Dota 2 и CS GO"><img src="/img/language-icon-ru.png">&nbsp;Русский</a>
                         </div>
                     <div class="selected_language">
-                        <img src="img/language-icon-ru.png"> Русский                    </div>
+                        <img src="/template/img/language-icon-en.png"> English                    </div>
                 </div>
             </div>
             <div class="header__menu">
                 <ul>
                     <li>
-                        <a rel="nofollow" class="my-bets" href="/mybets/">Ставки</a> и                        <a href="/investments/">Инвестиции</a>
+                        <a rel="nofollow" class="my-bets" href="/my-bets/">Bets</a> and                        <a href="/investments/">Investments</a>
                     </li>
                     <li>
-                        <a rel="nofollow" class="my-items" href="/myitems/">Инвентарь</a> и                        <a rel="nofollow" href="/payments/">Платежи</a>
+                        <a rel="nofollow" class="my-items" href="/my-items/">Items</a> and                        <a rel="nofollow" href="/payments/">Payments</a>
                     </li>
                     <li>
-                        <a class="trades" href="/trades/" title="Обмен скинов КС ГО и Дота 2 на деньги и предметы">Маркет</a>
+                        <a class="trades" href="/trades/" title="Exchange CS: GO and Dota 2 skins for money and other items">Market</a>
                     </li>
                     <li>
-                        <a rel="nofollow" class="help" href="/help/">Помощь</a>
+                        <a rel="nofollow" class="help" href="/help/">Help</a>
                     </li>
                 </ul>
             </div>
-            <div class="header__user clear header__user_login">
-
-                <div class="profile__betcoin_middle-row3 clear form_for_js_in_div" data-action="/engine/function/login_page.php?login_form" method="post">
-
-                    <button class="button_for_js_in_div white_button login" type="button" name="login" onclick="ym(44406943, &#39;reachGoal&#39;, &#39;login&#39;); return true;">Войти <span></span></button>
+            <div class="header__user clear">
+                <div class="header__user_left">
+                    <div class="header__user_money">
+                        <a rel="nofollow" href="/payments/">1.00                            <span></span></a>
+                    </div>
+                    <div class="header__user_money steam_items">
+                        <a rel="nofollow" href="/my-items/">4.15                            <span></span></a>
+                    </div>
                 </div>
-
-<!--                <a rel="nofollow" href="--><!--/?login_form"-->
-<!--                   onclick="ym(44406943, 'reachGoal', 'login'); return true;">--><!--                    <span></span></a>-->
+                <div class="header__user_right">
+                    <div class="header__user_name">
+                        <a rel="nofollow" href="/profile/">
+                            superkroop                        </a>
+                    </div>
+                    <p>
+                        <a rel="nofollow" href="/profile/">
+                            profile                        </a>
+                    </p>
+                </div>
+                <a rel="nofollow" href="/?logout" class="header__user_exit"></a>
+                <div class="header__user_avatar">
+                    <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg">
+                </div>
             </div>
 
-            <div class="mobile-menu mCustomScrollbar _mCS_1 mCS_no_scrollbar"><div id="mCSB_1" class="mCustomScrollBox mCS-my-theme mCSB_vertical mCSB_inside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container mCS_y_hidden mCS_no_scrollbar_y" style="position:relative; top:0; left:0;" dir="ltr">
+            <div class="mobile-menu mCustomScrollbar _mCS_1"><div id="mCSB_1" class="mCustomScrollBox mCS-my-theme mCSB_vertical mCSB_inside" style="max-height: none;" tabindex="0"><div id="mCSB_1_container" class="mCSB_container" style="position:relative; top:0; left:0;" dir="ltr">
                 <div class="mobile-menu__row-one clear">
                     <div class="mobile-menu__arrow"></div>
-                    <div class="logo"><a href="/" title="Bets4.pro"></a></div>
+                    <div class="logo"></div>
+                </div>
+
+                <div class="mobile-menu__row-two clear">
+                    <div class="mobile-menu__user clear">
+                        <div class="mobile-menu__user_left">
+                            <div class="mobile-menu__user_money">
+                                <a rel="nofollow" href="/payments/">1.00                                    <span></span></a>
+                            </div>
+                            <div class="mobile-menu__user_money steam_items">
+                                <a rel="nofollow" href="/my-items/">4.15                                    <span></span></a>
+                            </div>
+                        </div>
+                        <div class="mobile-menu__user_right">
+                            <div class="mobile-menu__user_name">
+                                <a rel="nofollow" href="/profile/">
+                                    superkroop                                </a>
+                            </div>
+                            <p>
+                                <a rel="nofollow" href="/profile/">
+                                    profile                                </a>
+                            </p>
+                        </div>
+                        <a rel="nofollow" href="/?logout" class="mobile-menu__user_exit">Logout</a>
+                        <div class="mobile-menu__user_avatar">
+                            <img src="https://steamcdn-a.akamaihd.net/steamcommunity/public/images/avatars/fe/fef49e7fa7e1997310d705b2a6158ff8dc1cdfeb_full.jpg" class="mCS_img_loaded">
+                        </div>
+                    </div>
                 </div>
 
                 <div class="all_lang">
                     
-                        <a href="https://bets4.net/" title="Bet skins on CS:GO and Dota 2 matches"><img src="img/language-icon-en.png" class="mCS_img_loaded">&nbsp;English</a>
+                         
+                         <a href="/ru/my-items/" title="Ставки КС ГО и Дота 2 скинами на матчи Dota 2 и CS GO"><img src="img/language-icon-ru.png" class="mCS_img_loaded">&nbsp;Русский</a>
                     </div>
 
                 <div class="mobile-menu__row-three">
                     <ul>
                         <li>
-                            <a rel="nofollow" class="my-bets" href="/mybets/">Ставки</a>
+                            <a rel="nofollow" class="my-bets" href="/my-bets/">Bets</a>
                         </li>
                         <li>
-                            <a class="investments" href="/investments/">Инвестиции</a>
+                            <a class="investments" href="/investments/">Investments</a>
                         </li>
                         <li>
-                            <a rel="nofollow" class="my-items" href="/myitems/">Инвентарь</a>
+                            <a rel="nofollow" class="my-items" href="/my-items/">Items</a>
                         </li>
                         <li>
-                            <a rel="nofollow" class="payments" href="/payments/">Платежи</a>
+                            <a rel="nofollow" class="payments" href="/payments/">Payments</a>
                         </li>
                         <li>
-                            <a class="trades" href="/trades/">Маркет</a>
+                            <a class="trades" href="/trades/">Market</a>
                         </li>
                         <li>
-                            <a rel="nofollow" class="rules" href="https://bets4.net/ru/rules/">Правила</a>
+                            <a rel="nofollow" class="rules" href="/rules/">Rules</a>
                         </li>
                         <li>
-                            <a rel="nofollow" class="help" href="/help/">Помощь</a>
+                            <a rel="nofollow" class="help" href="/help/">Help</a>
                         </li>
                         <li>
-                            <a rel="nofollow" class="news" href="https://bets4.net/ru/news/">Новости</a>
+                            <a rel="nofollow" class="news" href="/news/">News</a>
                         </li>
                     </ul>
                 </div>
-            </div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-my-theme mCSB_scrollTools_vertical" style="display: none;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; height: 0px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
+            </div><div id="mCSB_1_scrollbar_vertical" class="mCSB_scrollTools mCSB_1_scrollbar mCS-my-theme mCSB_scrollTools_vertical" style="display: block;"><div class="mCSB_draggerContainer"><div id="mCSB_1_dragger_vertical" class="mCSB_dragger" style="position: absolute; min-height: 30px; display: block; height: 249px; max-height: 272px; top: 0px;"><div class="mCSB_dragger_bar" style="line-height: 30px;"></div></div><div class="mCSB_draggerRail"></div></div></div></div></div>
         </div>
     </header>
     

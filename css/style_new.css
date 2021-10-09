@@ -1,0 +1,36 @@
+@media (max-width: 767px) {
+	.header__left {
+	    margin-left: calc((100% - 115px) / 2);
+	    width: 115px;
+	}
+	.header__user_right {
+		display: none;
+	}
+	.header__user_left {
+	    padding-right: 26px;
+	}
+	.header__user_left {
+	    font-weight: 700;
+	    top: 34px;
+	    width: 88px;
+	}
+	.header__user_left:before {
+		content: '+';
+		position: absolute;
+	    font-size: 41px;
+	    font-weight: 400;
+	    width: 24px;
+	    height: 24px;
+	    line-height: 24px;
+	    top: 9px;
+	    left: -21px;
+	}
+	.header__user_money a {
+	    font-weight: 700;
+	    color: #fff;
+	    opacity: 1;
+	}
+	.header__user_money a span, .header__user_money.steam_items a span {
+		margin-left: 8px;
+	}
+}
