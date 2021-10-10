@@ -34,3 +34,33 @@
 		margin-left: 8px;
 	}
 }
+
+.mobile-menu__row-games-menu {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    width: max-content;
+}
+
+.mobile-menu__row-games-menu .game_button {
+    display: inline-block;
+    margin-left: 2px;
+    margin-right: 2px;
+    height: 65px;
+    width: 40px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    transition: all ease .2s;
+    border-bottom: 3px solid transparent;
+}
+
+.mobile-menu__row-games {
+    overflow: auto;
+    width: 100%;
+}
+
+@media (min-width: 1200px){
+	.mobile-menu__row-games {
+		display: none;
+	}
+}
