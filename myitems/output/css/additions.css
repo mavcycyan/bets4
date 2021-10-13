@@ -1,0 +1,2396 @@
+input[type=search] {
+	height: 28px;
+	line-height: 28px;
+	color: #c8c8c8;
+	font-size: 12px;
+	width: 220px;
+	display: inline-block;
+	border: none;
+	border-bottom-color: currentcolor;
+	border-bottom-style: none;
+	border-bottom-width: medium;
+	outline: none;
+	background: 0 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	margin-left: 5px;
+	padding-left: 5px;
+	margin-top: 0
+}
+
+button.button {
+	display: inline-block;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 2px;
+	background: #fff;
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all ease .3s
+}
+
+button.button:hover {
+	background: #c8c8c8
+}
+
+button.button:disabled {
+	background: #c8c8c8;
+	cursor: not-allowed
+}
+
+.bet-content__range-button {
+	display: none;
+	flex-direction: row;
+	justify-content: space-between;
+	align-content: flex-start;
+	flex-wrap: wrap;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px
+}
+
+.bet-content__block button.button {
+	min-width: 135px
+}
+
+.bet-content__range-button button.button {
+	min-width: 65px;
+	position: relative;
+	align-self: flex-start
+}
+
+.sell_top-right-block__range {
+	height: 31px;
+	background: url(../img/betcoin-icon.png) 10px 5px no-repeat;
+	background-size: auto;
+	-webkit-background-size: 22px 22px;
+	background-size: 18px 18px;
+	padding-left: 40px
+}
+
+.auction-open,
+.auction-salling {
+	background: rgba(11, 0, 12, .7);
+	padding: 15px;
+	margin-bottom: 10px
+}
+
+.auction-open__top {}
+
+.auction-open__title {
+	height: 40px;
+	line-height: 40px;
+	font-size: 18px;
+	color: #b60000;
+	padding-left: 24px;
+	position: relative
+}
+
+.auction-open__title:before {
+	position: absolute;
+	display: block;
+	content: "...";
+	left: 0;
+	top: -5px;
+	color: #b60000;
+	font-size: 20px
+}
+
+.auction-open__info {
+	border-top: 1px solid rgba(255, 255, 255, .1);
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-left: 35px;
+	padding-right: 35px
+}
+
+.auction-open__info p:nth-child(1) {
+	color: #9b0404;
+	margin-right: 80px
+}
+
+.auction-open__info p {
+	float: left;
+	line-height: 20px;
+	padding-top: 14px;
+	padding-bottom: 14px;
+	position: relative;
+	font-size: 14px;
+	color: #696969;
+	margin-right: 45px
+}
+
+.auction-open__info p span {
+	display: inline-block;
+	color: #c8c8c8;
+	margin-left: 15px
+}
+
+.auction-open__info p:nth-child(4) i {
+	color: #9b0404;
+	font-size: 10px;
+	position: absolute;
+	bottom: 2px;
+	left: 0;
+	font-style: normal
+}
+
+.auction-open__items {
+	padding-top: 8px
+}
+
+.auction-open__item_top {
+	border: 1px solid rgba(255, 255, 255, .1);
+	background: rgba(4, 0, 4, .3)
+}
+
+.auction-open__item_top-title {
+	float: left;
+	height: 26px;
+	line-height: 26px;
+	margin-left: 8px;
+	padding-left: 21px;
+	font-size: 12px;
+	color: #c8c8c8
+}
+
+.auction-open__item_top-title.buy {
+	background: url(../img/tab-icon-one-active.png) left center no-repeat
+}
+
+.auction-open__item_top-title.sell {
+	background: url(../img/my-items-icon-two.png) left center no-repeat
+}
+
+.auction-open__item_top-title span {
+	color: #696969
+}
+
+.auction-open__item_top-total {
+	color: #c8c8c8;
+	font-size: 12px;
+	height: 26px;
+	line-height: 26px;
+	float: right;
+	margin-right: 8px
+}
+
+.auction-open__item_bottom {
+	background: rgba(4, 0, 4, .5);
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-top: none;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 17px;
+	padding-bottom: 5px
+}
+
+.auction-salling__item {
+	border: 1px solid rgba(255, 255, 255, .1);
+	float: left;
+	width: 175px;
+	margin-right: 10px;
+	margin-bottom: 10px
+}
+
+.auction-salling__item_top {
+	padding-top: 5px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	text-align: center;
+	padding-left: 35px;
+	padding-right: 35px;
+	position: relative;
+	background: url(../img/auction-open-item-icon.png) rgba(4, 0, 4, .3) 10px center no-repeat
+}
+
+.auction-salling__item_top {
+	background-image: none;
+	text-align: left;
+	padding-left: 12px
+}
+
+.auction-salling__item_top p {
+	display: inline-block;
+	color: #c9c9c9;
+	padding-left: 18px;
+	font-size: 12px;
+	line-height: 20px;
+	background: url(../img/time-icon.png) left center no-repeat
+}
+
+.auction-salling__item_bottom {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+	background: rgba(4, 0, 4, .5)
+}
+
+.auction__block {
+	display: inline-block;
+	width: 105px;
+	height: 70px;
+	position: relative
+}
+
+.auction__block_title {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	background: rgba(11, 0, 12, .7);
+	line-height: 12px
+}
+
+.auction__block_title p {
+	display: inline-block;
+	line-height: 12px;
+	font-size: 11px;
+	color: #ffaf00;
+	background: url(../img/user-money-icon.png) left center no-repeat;
+	-webkit-background-size: 10px 11px;
+	background-size: 10px 11px;
+	padding-left: 15px
+}
+
+.auction__block_img {
+	position: absolute;
+	width: 105px;
+	height: 70px;
+	top: 0;
+	left: 0;
+	z-index: 5
+}
+
+.auction__block_img img {
+	width: 105px;
+	height: 70px
+}
+
+.auction__block_bottom {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-size: 11px;
+	color: #0019de;
+	font-weight: 700;
+	height: 12px;
+	line-height: 12px;
+	z-index: 10;
+	width: 100%;
+	background: rgba(11, 0, 12, .7)
+}
+
+.auction-salling__item_close {
+	position: absolute;
+	width: 9px;
+	height: 11px;
+	top: 50%;
+	margin-top: -5px;
+	right: 12px;
+	cursor: pointer;
+	background: url(../img/auction-item-close.png) center center no-repeat
+}
+
+.auction-salling__top {
+	margin-bottom: 15px
+}
+
+.auction-salling__title {
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 18px;
+	margin-left: 18px;
+	position: relative
+}
+
+.auction-salling__title:before {
+	display: block;
+	position: absolute;
+	content: ". . .";
+	width: 0;
+	height: 21px;
+	left: -13px;
+	top: 11px;
+	line-height: 5px;
+	font-size: 20px;
+	color: #fff
+}
+
+.items__tabs_middle {
+	text-align: center
+}
+
+.items__tabs_middle-betcoin {
+	border: 1px solid rgba(255, 255, 255, .1);
+	float: left;
+	width: 245px
+}
+
+.pay__buy_top .items__tabs_middle-betcoin.many_items_version {
+	width: calc(100% - 377px)
+}
+
+.items__tabs_middle-betcoin-top {
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	background: rgba(4, 0, 4, .3);
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color: #c8c8c8;
+	font-size: 12px
+}
+
+.items__tabs_middle-betcoin-bottom {
+	padding-top: 15px;
+	padding-bottom: 15px;
+	background: rgba(4, 0, 4, .5)
+}
+
+.items__tabs_middle-betcoin-block {
+	width: 200px;
+	height: 60px;
+	border: 1px solid rgba(255, 255, 255, .1);
+	position: relative;
+	background: url(../img/betcoin-icon.png) rgba(4, 0, 4, .5) 8px 5px no-repeat;
+	padding-left: 70px;
+	padding-top: 12px;
+	-webkit-box-shadow: 0 0 15px 1px rgba(247, 174, 0, .15);
+	-moz-box-shadow: 0 0 15px 1px rgba(247, 174, 0, .15);
+	box-shadow: 0 0 15px 1px rgba(247, 174, 0, .15);
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle
+}
+
+.items__tabs_middle-betcoin-block:before {
+	position: absolute;
+	display: block;
+	content: "";
+	background: rgba(255, 255, 255, .05);
+	width: 1px;
+	height: 45px;
+	top: 7px;
+	left: 67px
+}
+
+.items__tabs_middle-betcoin-block .bet-content__betcoin_name {
+	height: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	font-size: 14px;
+	color: #f7ae00
+}
+
+.items__tabs_middle-betcoin-block .bet-content__betcoin_money {
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #f7ae00
+}
+
+.no-coins .items__tabs_middle-betcoin-block {
+	width: 200px;
+	height: 60px;
+	display: inline-block;
+	border: 1px solid rgba(255, 255, 255, .1);
+	position: relative;
+	background: url(../img/no-coins.png) rgba(11, 0, 12, .5) 8px 5px no-repeat;
+	padding-left: 70px;
+	padding-top: 12px;
+	-webkit-box-shadow: 0 0 5px 2px rgba(255, 255, 255, .1);
+	-moz-box-shadow: 0 0 5px 2px rgba(255, 255, 255, .1);
+	box-shadow: 0 0 5px 2px rgba(255, 255, 255, .1);
+	vertical-align: middle
+}
+
+.no-coins .items__tabs_middle-betcoin-block:before {
+	position: absolute;
+	display: block;
+	content: "";
+	background: rgba(255, 255, 255, .1);
+	width: 1px;
+	height: 45px;
+	top: 7px;
+	left: 67px
+}
+
+.no-coins .bet-content__betcoin_name {
+	height: 18px;
+	line-height: 18px;
+	font-weight: 700;
+	font-size: 14px;
+	color: #696969
+}
+
+.no-coins .bet-content__betcoin_money {
+	height: 18px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #696969
+}
+
+.items__tabs_middle-arrow {
+	width: 52px;
+	height: 44px;
+	float: left;
+	background: url(../img/big-arrow.png) center center no-repeat;
+	margin-left: 40px;
+	margin-top: 50px;
+	margin-right: 40px
+}
+
+.game_item {
+	width: 105px;
+	height: 70px;
+	line-height: 67px;
+	position: relative;
+	align-self: flex-start;
+	margin: 5px;
+	display: inline-block;
+	background-color: rgba(39, 38, 45, .5);
+	text-align: center
+}
+
+.game_item__more_items {
+	cursor: pointer
+}
+
+.slick-slide .game_item__more_items {
+	overflow: hidden;
+	position: absolute;
+	text-align: center;
+	width: 100%
+}
+
+.game_item .descr {
+	display: none;
+	line-height: 12px;
+	font-size: 11px;
+	text-align: center;
+	padding: 5px;
+	margin-top: 60px;
+	background-color: rgba(9, 9, 9, .9);
+	min-height: 25px;
+	-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .3)
+}
+
+.game_item .descr a {
+	color: #8ec13e
+}
+
+.game_item:hover .descr {
+	display: block;
+	position: absolute;
+	z-index: 490;
+	width: 150px
+}
+
+.game_item .edit {
+	display: none;
+	line-height: 12px;
+	font-size: 11px;
+	text-align: center;
+	padding: 5px;
+	margin-top: 22px;
+	background-color: rgba(9, 9, 9, .9);
+	min-height: 25px;
+	-moz-box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+	-webkit-box-shadow: 0 5px 5px rgba(0, 0, 0, .3);
+	box-shadow: 0 5px 5px rgba(0, 0, 0, .3)
+}
+
+.game_item .edit .button_for_js_in_div {
+	cursor: pointer
+}
+
+.game_item:hover .edit {
+	display: block;
+	position: absolute;
+	z-index: 490;
+	width: 105px
+}
+
+.game_item .item_value {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	text-align: center;
+	z-index: 10;
+	background: rgba(11, 0, 12, .7);
+	line-height: 12px;
+	font-size: 11px
+}
+
+.game_item .item_value p {
+	display: inline-block;
+	line-height: 12px;
+	font-size: 11px;
+	color: #c8c8c8
+}
+
+.game_item .item_type {}
+
+.game_item .item_name {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-size: 11px;
+	color: #0019de;
+	font-weight: 700;
+	height: 12px;
+	line-height: 12px;
+	z-index: 10;
+	width: 100%;
+	background: rgba(11, 0, 12, .7);
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	padding: 0 3px
+}
+
+.game_item img {
+	min-width: 100%;
+	min-height: 100%;
+	vertical-align: middle;
+	max-height: 61px;
+	background-color: rgba(101, 101, 101, .87);
+	overflow: hidden
+}
+
+.game_item.game_item_betcoin img {
+	min-width: unset;
+	min-height: unset;
+	vertical-align: middle;
+	max-height: 61px;
+	background-color: unset;
+	overflow: hidden
+}
+
+.game_item.my_item_in_market img {
+	width: calc(100% - 2px);
+	max-height: 59px
+}
+
+.game_item input[type=checkbox] {
+	display: none
+}
+
+.action-modal .edit_item_container {
+	text-align: center
+}
+
+.action-modal .edit_item_block {
+	width: 340px;
+	display: inline-block
+}
+
+.action-modal .game_item {
+	float: left;
+	margin: 20px 10px 20px 0
+}
+
+.action-modal .pay__sell_top-right-block {
+	margin: 20px 0 20px 10px;
+	float: right;
+	width: 215px;
+	text-align: center
+}
+
+.action-modal button {
+	margin-left: 0;
+	margin-top: 10px
+}
+
+.action-modal button.cancel {
+	float: left
+}
+
+.action-modal button.update {
+	float: right
+}
+
+.action-modal .bet-content__range {
+	display: inline-block;
+	float: none
+}
+
+.pay__buy {
+	display: none
+}
+
+.pay__buy.checked,
+.pay__sell.checked,
+.pay__history.checked {
+	display: block
+}
+
+.pay__buy_top-left {
+	float: left;
+	width: 100%;
+	text-align: center
+}
+
+.pay__buy .pay__buy_top-left {
+	text-align: center
+}
+
+.pay__sell .pay__buy_top-right {
+	width: 280px;
+	position: relative;
+	display: inline-block
+}
+
+.pay__buy .pay__buy_top-right {
+	float: right;
+	padding-top: 8px;
+	padding-bottom: 8px
+}
+
+.pay__buy_top-right table {
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-bottom-color: rgba(255, 255, 255, .1);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	background: rgba(4, 0, 4, .3);
+	width: 100%;
+	border-bottom: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px
+}
+
+.pay__buy_top-right table tr td {
+	line-height: 17px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	font-size: 14px;
+	color: #696969;
+	padding-right: 20px
+}
+
+.pay__buy_top-right table tr:nth-child(1) {
+	width: 50px
+}
+
+.pay__buy_top-right table tr td span {
+	color: #c9c9c9
+}
+
+.pay__buy_top-right-button {
+	text-align: center;
+	margin-top: 15px
+}
+
+.pay__sell_top-right-block {
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	background: rgba(4, 0, 4, .5) 10px 5px no-repeat;
+	border: 1px solid rgba(255, 255, 255, .1)
+}
+
+.pay__buy_top-right-button button,
+.pay__sell_top-right-block button,
+.ot__no-item a,
+.pay__buy_top button {
+	display: inline-block;
+	padding-left: 12px;
+	padding-right: 12px;
+	height: 30px;
+	line-height: 30px;
+	border-radius: 2px;
+	background: #fff;
+	color: #000;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	transition: all ease .3s
+}
+
+.pay__sell_top-right-block button {
+	margin-left: 10px
+}
+
+.pay__buy_top-right-button button:hover,
+.pay__sell_top-right-block button:hover,
+.ot__no-item a:hover {
+	background: #c8c8c8
+}
+
+.pay__buy_top-right-button button span {
+	display: inline-block;
+	width: 14px;
+	height: 13px;
+	background: url(../img/my-items-icon-four.png) center center no-repeat
+}
+
+.pay__sell_top-right-block button span {
+	display: inline-block;
+	vertical-align: middle;
+	width: 21px;
+	height: 21px;
+	background: url(../img/scale-icon.png) center center no-repeat
+}
+
+.pay__buy_top button span.button_sell {
+	display: inline-block;
+	vertical-align: middle;
+	width: 21px;
+	height: 21px;
+	background: url(../img/scale-icon.png) center center no-repeat
+}
+
+.button_block_sell {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	float: right
+}
+
+.pay__buy_top {
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	padding-bottom: 10px;
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-left: 15px;
+	padding-right: 15px
+}
+
+.pay__buy_bottom {
+	float: left;
+	width: 100%;
+	margin-top: 10px
+}
+
+.items-tab {
+	display: none
+}
+
+.items-tab.checked {
+	display: block
+}
+
+.items__tabs_bottom-tabs {
+	padding: 3px 0;
+	height: 46px;
+	line-height: 38px;
+	text-align: center;
+	background: rgba(4, 0, 4, .3);
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-bottom: none
+}
+
+.items__tabs_bottom-tabs div:active,
+.items__tabs_bottom-tabs div.checked {
+	-webkit-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .1);
+	-moz-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .1);
+	box-shadow: 0 0 13px 1px rgba(255, 255, 255, .1);
+	background-color: rgba(4, 0, 4, .5);
+	color: #fff;
+	border: 1px solid rgba(255, 255, 255, .2)
+}
+
+.items__tabs_bottom-tabs div:nth-child(1) {
+	background-position: 3px 10px
+}
+
+.items__tabs_bottom-tabs div {
+	display: inline-block;
+	margin-left: 6px;
+	margin-right: 6px;
+	cursor: pointer;
+	color: #c8c8c8;
+	font-size: 14px;
+	padding: 10px 12px;
+	padding-left: 32px;
+	background-image: url(../img/tabs-icons.png);
+	background-repeat: no-repeat;
+	height: 35px;
+	line-height: 16px;
+	vertical-align: middle;
+	border: 1px solid transparent;
+	border: 1px solid transparent
+}
+
+.items__tabs_bottom-tabs div:nth-child(2) {
+	background-position: 3px -48px
+}
+
+.items__tabs_bottom-tabs div:nth-child(3) {
+	background-position: 3px -100px
+}
+
+.items__tabs_bottom-top {
+	border: 1px solid rgba(255, 255, 255, .1);
+	background: rgba(4, 0, 4, .3);
+	padding-left: 10px;
+	padding-right: 10px
+}
+
+.items__tabs_bottom-top-select {
+	float: left;
+	margin-right: 15px
+}
+
+.items__tabs_bottom-top-select p {
+	float: left;
+	height: 28px;
+	line-height: 28px;
+	margin-right: 5px;
+	color: #c8c8c8;
+	font-size: 12px
+}
+
+.items__tabs_bottom-top-select div {
+	float: left;
+	height: 21px;
+	margin-top: 3px;
+	width: 65px;
+	overflow: hidden;
+	background: url(../img/select-icon.png) right 7px no-repeat;
+	border: 1px solid rgba(255, 255, 255, .2);
+	-webkit-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .1);
+	-moz-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .1);
+	box-shadow: 0 0 13px 1px rgba(255, 255, 255, .1)
+}
+
+.items__tabs_bottom-top-select div select {
+	background: #000;
+	border: none;
+	outline: none;
+	color: #c8c8c8;
+	font-size: 12px;
+	width: 100px;
+	height: 13px;
+	line-height: 13px
+}
+
+.items__tabs_bottom-top-sort,
+.items__tabs_bottom-top-search {
+	float: left;
+	margin-right: 15px
+}
+
+.items__tabs_bottom-top-sort p,
+.items__tabs_bottom-top-search p {
+	height: 28px;
+	line-height: 28px;
+	color: #c8c8c8;
+	font-size: 12px;
+	float: left;
+	margin-right: 5px
+}
+
+.items__tabs_bottom-top-sort-arrows {
+	float: left;
+	height: 28px;
+	line-height: 28px
+}
+
+.items__tabs_bottom-top-sort-arrows div:nth-child(1) {
+	width: 9px;
+	height: 7px;
+	display: inline-block;
+	cursor: pointer;
+	background: url(../img/arrow-one.png) center center no-repeat
+}
+
+.items__tabs_bottom-top-sort-arrows div.active:nth-child(1) {
+	background: url(../img/arrow-one_active.png) center center no-repeat
+}
+
+.items__tabs_bottom-top-sort-arrows div:nth-child(2) {
+	cursor: pointer;
+	width: 9px;
+	height: 7px;
+	display: inline-block;
+	background: url(../img/arrow-two.png) center center no-repeat
+}
+
+.items__tabs_bottom-top-sort-arrows div.active:nth-child(2) {
+	background: url(../img/arrow-two_active.png) center center no-repeat
+}
+
+.items__tabs_bottom-top-search-input {
+	float: left
+}
+
+.items__tabs_bottom-top-total {
+	float: right;
+	height: 28px;
+	line-height: 28px;
+	color: #c8c8c8;
+	font-size: 12px
+}
+
+.items__tabs_bottonm-weapon {
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-top: 20px;
+	padding-bottom: 8px;
+	background: rgba(4, 0, 4, .5);
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-top: none
+}
+
+.items__tabs_bottonm-weapon .btn_div {
+	width: 100%;
+	text-align: center
+}
+
+.items__tabs_bottonm-weapon .items_my {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-start;
+	flex-wrap: wrap
+}
+
+.items__last_weapon-item {
+	display: inline-block;
+	margin-left: 12px;
+	margin-right: 12px;
+	width: 90px;
+	height: 60px;
+	position: relative;
+	z-index: 5
+}
+
+.items__last_weapon-item-money {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 12px;
+	line-height: 12px;
+	text-align: center;
+	color: #c8c8c8;
+	font-size: 11px
+}
+
+.items__last_weapon-item img {
+	min-width: 100%;
+	min-height: 100%
+}
+
+.items__last_weapon-item-title {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	text-align: center;
+	font-size: 11px;
+	color: #0019de;
+	font-weight: 700;
+	height: 12px;
+	line-height: 12px;
+	width: 100%
+}
+
+.items__last_weapon-item-title-yellow {
+	color: #ca8f0d
+}
+
+.pay__sell .items__tabs_middle-betcoin-bottom,
+.pay__buy .items__tabs_middle-betcoin-bottom {
+	line-height: 82px;
+	text-align: center
+}
+
+.pay__sell .items__tabs_middle-betcoin-bottom .items__tabs_middle-no_item-bottom,
+.pay__buy .items__tabs_middle-betcoin-bottom .items__tabs_middle-no_item-bottom {
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	width: 100%
+}
+
+.pay__sell .items__tabs_middle-betcoin-bottom .items__tabs_middle-no_item-bottom p:nth-child(1),
+.pay__buy .items__tabs_middle-betcoin-bottom .items__tabs_middle-no_item-bottom p:nth-child(1) {
+	line-height: 18px;
+	margin-bottom: 5px;
+	color: #c9c9c9;
+	font-size: 14px
+}
+
+.pay__sell .items__tabs_middle-betcoin-bottom .items__tabs_middle-no_item-bottom p:nth-child(2),
+.pay__buy .items__tabs_middle-betcoin-bottom .items__tabs_middle-no_item-bottom p:nth-child(2) {
+	color: #696969;
+	font-size: 12px;
+	line-height: 15px
+}
+
+.items__tabs_middle-betcoin-bottom img {
+	vertical-align: middle
+}
+
+.pay__sell {
+	display: none
+}
+
+.pay__sell .pay__buy_top-right {
+	padding-top: 0
+}
+
+.bet-content__range {
+	float: left;
+	line-height: 31px;
+	background: url(../img/betcoin-icon.png) rgba(4, 0, 4, .5) 10px 5px no-repeat;
+	-webkit-background-size: 22px 22px;
+	background-size: 18px 18px;
+	padding-left: 40px
+}
+
+.bet-content__range_name {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	color: #c8c8c8;
+	font-size: 12px;
+	margin-right: 14px
+}
+
+.sell_top-right-block__range_name {
+	height: 30px;
+	line-height: 30px;
+	float: left;
+	color: #c8c8c8;
+	font-size: 12px;
+	margin-right: 14px
+}
+
+.bet-content__range_wraper {
+	width: 145px;
+	float: left;
+	margin-right: 11px;
+	height: 30px
+}
+
+.bet-content__range_wraper input[type=range] {
+	-webkit-appearance: none;
+	width: 100%;
+	background: 0 0;
+	height: 30px
+}
+
+.bet-content__range_wraper input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none
+}
+
+.bet-content__range_wraper input[type=range]:focus {
+	outline: none
+}
+
+.bet-content__range_wraper input[type=range]::-ms-track {
+	width: 100%;
+	cursor: pointer;
+	background: 0 0;
+	border-color: transparent;
+	color: transparent
+}
+
+.bet-content__range_wraper input[type=range]::-webkit-slider-thumb {
+	-webkit-appearance: none;
+	border: 1px solid #c4c3c4;
+	height: 7px;
+	width: 7px;
+	border-radius: 50%;
+	background: #000;
+	cursor: pointer;
+	margin-top: -3px
+}
+
+.bet-content__range_wraper input[type=range]::-moz-range-thumb {
+	border: 1px solid #c4c3c4;
+	height: 7px;
+	width: 7px;
+	border-radius: 50%;
+	background: #000;
+	cursor: pointer
+}
+
+.bet-content__range_wraper input[type=range]::-ms-thumb {
+	border: 1px solid #c4c3c4;
+	height: 7px;
+	width: 7px;
+	border-radius: 50%;
+	background: #000;
+	cursor: pointer
+}
+
+.bet-content__range_wraper input[type=range]::-webkit-slider-runnable-track {
+	width: 100%;
+	height: 1px;
+	background: #c4c3c4
+}
+
+.bet-content__range_wraper input[type=range]:focus::-webkit-slider-runnable-track {
+	background: #c4c3c4
+}
+
+.bet-content__range_wraper input[type=range]::-moz-range-track {
+	width: 100%;
+	height: 1px;
+	background: #c4c3c4
+}
+
+.bet-content__range_wraper input[type=range]::-ms-track {
+	width: 100%;
+	height: 1px;
+	background: 0 0;
+	color: transparent
+}
+
+.bet-content__range_wraper input[type=range]::-ms-fill-lower {
+	background: #c4c3c4
+}
+
+.bet-content__range_wraper input[type=range]:focus::-ms-fill-lower {
+	background: #c4c3c4
+}
+
+.bet-content__range_wraper input[type=range]::-ms-fill-upper {
+	background: #c4c3c4
+}
+
+.bet-content__range_wraper input[type=range]:focus::-ms-fill-upper {
+	background: #c4c3c4
+}
+
+.bet-content__range_value {
+	width: 79px;
+	border: none;
+	outline: none;
+	background: 0 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	float: left;
+	height: 18px;
+	line-height: 18px;
+	margin-top: 6px;
+	color: #c8c8c8;
+	font-size: 14px;
+	text-align: center;
+	margin-right: 8px
+}
+
+.sell_top-right-block__range_value {
+	width: 80px;
+	border: none;
+	outline: none;
+	background: 0 0;
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	float: right;
+	height: 18px;
+	line-height: 18px;
+	margin-top: 6px;
+	color: #c8c8c8;
+	font-size: 14px;
+	text-align: center
+}
+
+.pay__history table tr td.details-dota p span.icon {
+	background-image: url(../img/games-icons.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	background-position: left center;
+	vertical-align: middle
+}
+
+.pay__history table tr td.details-cs_go p span.icon {
+	background-image: url(../img/games-icons.png);
+	background-repeat: no-repeat;
+	display: inline-block;
+	width: 15px;
+	height: 19px;
+	background-position: -36px center;
+	vertical-align: middle
+}
+
+.pay__history table tr td p span.yellow {
+	color: #faa000
+}
+
+.pay__history table tr td p span.blue {
+	color: #3769ff
+}
+
+.full-news-title {
+	padding-left: 15px;
+	position: relative
+}
+
+.full-news-title:before {
+	position: absolute;
+	display: block;
+	content: "";
+	background: #fff;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	left: 0;
+	top: 50%;
+	margin-top: -2px
+}
+
+.help-content__insert_title-text {
+	height: auto
+}
+
+.help-content__insert p {
+	padding-left: 0
+}
+
+.comments {
+	padding-top: 15px;
+	background: rgba(11, 0, 12, .65);
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-top: 10px;
+	padding-bottom: 10px
+}
+
+.comments__title,
+.conversation__title {
+	line-height: 30px;
+	margin-bottom: 15px;
+	color: #fff;
+	font-size: 18px;
+	padding-left: 23px;
+	background: url(../img/comments-title-icon.png) 2px center no-repeat
+}
+
+.comments-wrapper {
+	margin-left: -15px;
+	margin-right: -15px;
+	padding-left: 15px;
+	padding-right: 15px;
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	padding-bottom: 10px;
+	margin-bottom: 10px
+}
+
+.comment {
+	border: 1px solid rgba(255, 255, 255, .1);
+	position: relative;
+	min-height: 77px;
+	padding-right: 17px;
+	margin-bottom: 10px;
+	transition: all ease .3s
+}
+
+.comment:hover {
+	-webkit-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2);
+	-moz-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2);
+	box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2)
+}
+
+.comment__img {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	max-width: 75px;
+	height: 75px;
+	margin-top: -37px
+}
+
+.comment__img img {
+	height: 100%
+}
+
+.comment__text {
+	padding-left: 80px;
+	color: #c8c8c8;
+	font-size: 14px;
+	line-height: 18px;
+	padding-top: 8px;
+	padding-bottom: 5px
+}
+
+.comment__bottom {
+	padding-left: 80px;
+	padding-bottom: 5px
+}
+
+.comment__bottom_name {
+	float: left;
+	line-height: 18px;
+	color: #696969;
+	font-size: 12px;
+	margin-right: 25px
+}
+
+.comment__bottom_answer {
+	float: left;
+	margin-right: 25px
+}
+
+.comment__bottom_answer a {
+	display: block;
+	text-decoration: none;
+	color: #696969;
+	padding-left: 12px;
+	font-size: 12px;
+	line-height: 18px;
+	background: url(../img/answer-icon.png) left center no-repeat
+}
+
+.comment__date {
+	color: #c8c8c8;
+	font-size: 11px;
+	line-height: 18px;
+	float: right;
+	padding-left: 16px;
+	background: url(../img/time-icon.png) left center no-repeat
+}
+
+.comment-two {
+	margin-left: 18px
+}
+
+.comment:last-child {
+	margin-bottom: 0
+}
+
+.comments__message textarea {
+	padding: 8px;
+	font-size: 14px;
+	color: #696969;
+	float: left;
+	border: 1px solid rgba(255, 255, 255, .1);
+	width: 1010px;
+	background: rgba(4, 0, 4, .5);
+	outline: none;
+	resize: none;
+	height: 100px
+}
+
+.comments__message {
+	background: rgba(11, 0, 12, .65);
+	padding-left: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px
+}
+
+.comments__message a {
+	width: 100px;
+	height: 30px;
+	margin-top: 35px;
+	display: block;
+	background: #fff;
+	border-radius: 1px;
+	line-height: 30px;
+	text-align: center;
+	font-weight: 700;
+	font-size: 14px;
+	color: #000;
+	text-decoration: none;
+	transition: all ease .3s;
+	margin-left: 8px;
+	float: left
+}
+
+.comments__message a span {
+	display: inline-block;
+	width: 8px;
+	height: 9px;
+	background: url(../img/bet-icon-four.png) center center no-repeat
+}
+
+.comments__message a:hover {
+	background: #c8c8c8
+}
+
+.news__title {
+	position: relative;
+	background: 0 0;
+	padding-left: 15px
+}
+
+.news__title:before {
+	display: block;
+	position: absolute;
+	content: ". . .";
+	width: 0;
+	height: 21px;
+	left: 6px;
+	top: 2px;
+	line-height: 5px;
+	font-size: 20px;
+	color: #fff
+}
+
+.news__item {
+	margin-top: 5px
+}
+
+.news__item_date,
+.ot__item_date {
+	margin-left: 23px;
+	line-height: 18px;
+	background: url(../img/time-icon.png) left center no-repeat;
+	padding-left: 16px;
+	color: #c8c8c8;
+	font-size: 11px
+}
+
+.news__item_bottom {
+	border: 1px solid rgba(255, 255, 255, .1);
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	background: rgba(4, 0, 4, .5);
+	transition: all ease .3s;
+	min-height: 130px
+}
+
+.news__item_bottom:hover {
+	-webkit-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2);
+	-moz-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2);
+	box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2)
+}
+
+.news__item_bottom:before {
+	position: absolute;
+	content: "";
+	display: block;
+	width: 17px;
+	left: -1px;
+	height: calc(100% + 2px);
+	top: -1px
+}
+
+.news__item_bottom.promotions:before,
+.full-news__category.promotions div {
+	background: #870609
+}
+
+.news__item_bottom.updates:before,
+.full-news__category.updates div {
+	background: #696969
+}
+
+.news__item_bottom.articles:before,
+.full-news__category.articles div {
+	background: #04646f
+}
+
+.news__item_bottom.updates:before,
+.full-news__category.updates div {
+	background: #696969
+}
+
+.news__item_bottom.news:before,
+.full-news__category.news div {
+	background: #1a7c8c
+}
+
+.news__item_category {
+	line-height: 17px;
+	font-weight: 900;
+	font-size: 11px;
+	color: #fff;
+	width: 130px;
+	position: absolute;
+	left: -59px;
+	top: 50%;
+	margin-top: -9px;
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.news__item_category-attention {
+	background: #870609
+}
+
+.news__item_title,
+.ot__item_title {
+	padding-top: 3px;
+	padding-bottom: 3px;
+	line-height: 18px;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 700;
+	padding-left: 30px;
+	margin-bottom: 8px
+}
+
+.news__item_description {
+	color: #c8c8c8;
+	font-weight: 700;
+	font-size: 12px;
+	padding-left: 30px;
+	line-height: 18px
+}
+
+.news__content {
+	padding: 15px;
+	background: rgba(11, 0, 12, .65);
+	margin-bottom: 9px
+}
+
+.news__content_title {
+	height: 30px;
+	line-height: 30px;
+	padding-left: 22px;
+	color: #fff;
+	font-size: 18px;
+	float: left
+}
+
+.tickets__wrapper {
+	background: rgba(11, 0, 12, .65);
+	padding: 15px;
+	padding-top: 0
+}
+
+.tickets__tabs_top {
+	margin-left: -15px;
+	margin-right: -15px;
+	border-bottom: 1px solid rgba(255, 255, 255, .1);
+	text-align: center;
+	height: 45px;
+	margin-bottom: 8px
+}
+
+.tickets__tab {
+	height: 45px;
+	line-height: 41px;
+	display: inline-block;
+	margin-left: 6px;
+	margin-right: 6px;
+	padding-left: 32px;
+	padding-right: 8px;
+	color: #c8c8c8;
+	font-size: 18px;
+	cursor: pointer;
+	border-bottom: 4px solid transparent;
+	position: relative
+}
+
+.tickets__tab:nth-child(1) {
+	padding-left: 32px
+}
+
+.tickets__tab:nth-child(2) {
+	padding-left: 30px;
+	background: url(../img/invest-icon-two.png) 5px center no-repeat
+}
+
+.tickets__tab:nth-child(1):before {
+	position: absolute;
+	position: absolute;
+	display: block;
+	content: "...";
+	left: 10px;
+	top: -5px;
+	color: #c8c8c8;
+	font-size: 20px
+}
+
+.tickets__tab.tickets__tab-active:nth-child(1):before {
+	color: #fff
+}
+
+.tickets__tab-active {
+	background-color: rgba(255, 255, 255, .5);
+	border-bottom: 4px solid #fff;
+	color: #fff
+}
+
+.tickets__tab:nth-child(2).tickets__tab-active {
+	background-color: rgba(255, 255, 255, .5);
+	border-bottom: 4px solid #fff;
+	color: #fff
+}
+
+.tickets__item-two {
+	display: none
+}
+
+.ot__item_date {
+	float: left
+}
+
+.ot__item_problems {
+	display: block;
+	float: right;
+	line-height: 18px;
+	color: #c8c8c8;
+	text-decoration: none;
+	font-size: 11px
+}
+
+.ot__item_bottom {
+	border: 1px solid rgba(255, 255, 255, .1);
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	position: relative;
+	background: rgba(4, 0, 4, .5);
+	transition: all ease .3s;
+	min-height: 75px;
+	padding-left: 30px
+}
+
+.ot__item_bottom:hover {
+	-webkit-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2);
+	-moz-box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2);
+	box-shadow: 0 0 13px 1px rgba(255, 255, 255, .2)
+}
+
+.ot__item_last-msg p {
+	float: left;
+	color: #696969;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 18px;
+	margin-right: 3px
+}
+
+.ot__item_last-msg p a {
+	color: #c8c8c8;
+	text-decoration: none;
+	font-size: 12px;
+	font-weight: 700
+}
+
+.ot__item_last-msg-text {
+	text-decoration: none;
+	line-height: 18px;
+	display: block;
+	float: left;
+	font-size: 12px;
+	color: #c8c8c8;
+	font-weight: 700;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	max-width: 100%
+}
+
+.ot__item_title {
+	padding-left: 0
+}
+
+.ot__item_last-msg-time {
+	float: right;
+	line-height: 18px;
+	background: url(../img/time-icon.png) left center no-repeat;
+	padding-left: 16px;
+	color: #c8c8c8;
+	font-size: 11px
+}
+
+.ot__item_bottom:before {
+	position: absolute;
+	display: block;
+	content: "";
+	height: calc(100% + 2px);
+	width: 17px;
+	left: -1px;
+	top: -1px
+}
+
+.ot__item_bottom.new:before {
+	background: #870609
+}
+
+.ot__item_bottom.ot__item_bottom-active:after {
+	position: absolute;
+	display: block;
+	content: "";
+	background: #fff;
+	width: 5px;
+	height: 5px;
+	border-radius: 50%;
+	top: 50%;
+	margin-top: -2px;
+	left: -10px
+}
+
+.ot__item_bottom.closed:before {
+	background: #696969
+}
+
+.ot__item_category {
+	line-height: 17px;
+	font-weight: 900;
+	font-size: 11px;
+	color: #fff;
+	width: 75px;
+	position: absolute;
+	left: -30px;
+	top: 50%;
+	margin-top: -9px;
+	transform: rotate(270deg);
+	-webkit-transform: rotate(270deg);
+	-moz-transform: rotate(270deg);
+	-o-transform: rotate(270deg);
+	-ms-transform: rotate(270deg);
+	text-align: center;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+.ot__item {
+	margin-bottom: 6px
+}
+
+.ot__no-item {
+	text-align: center;
+	padding-top: 30px
+}
+
+.ot__no-item_title {
+	line-height: 20px;
+	margin-bottom: 7px;
+	font-size: 14px;
+	color: #c8c8c8
+}
+
+.ot__no-item_signature {
+	line-height: 12px;
+	color: #696969;
+	font-size: 12px;
+	margin-bottom: 35px
+}
+
+.conversation {
+	margin-top: 10px
+}
+
+.conversation .container {
+	padding: 15px;
+	background: rgba(11, 0, 12, .65)
+}
+
+.conversation__block_top {
+	border: 1px solid rgba(255, 255, 255, .1);
+	padding-left: 12px;
+	padding-right: 12px;
+	background: rgba(4, 0, 4, .3)
+}
+
+.conversation__block_top-left {
+	float: left;
+	line-height: 13px;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	max-width: 65%;
+	padding-right: 10px;
+	background: url(../img/select-icon.png) right center no-repeat;
+	color: #c8c8c8;
+	font-size: 12px
+}
+
+.conversation__block_top-right {
+	float: right;
+	max-width: 30%;
+	font-size: 12px;
+	color: #c8c8c8;
+	background: url(../img/time-icon.png) left center no-repeat;
+	padding-left: 15px;
+	line-height: 13px;
+	padding-top: 6px;
+	padding-bottom: 6px
+}
+
+.conversation__messages {
+	border: 1px solid rgba(255, 255, 255, .1);
+	border-top: none;
+	margin-bottom: 10px;
+	background: rgba(4, 0, 4, .5);
+	padding: 8px
+}
+
+.conversation .comments__message {
+	padding-left: 0;
+	padding-right: 0;
+	background: 0 0
+}
+
+.conversation__messagess-wrapper {
+	height: 180px
+}
+
+.conversation__message {
+	width: 51%;
+	border: 1px solid rgba(255, 255, 255, .1);
+	margin-bottom: 10px;
+	background: rgba(0, 0, 0, .3);
+	padding: 5px
+}
+
+.conversation__message-left {
+	float: left
+}
+
+.conversation__message-right {
+	float: right
+}
+
+.conversation__message_text {
+	line-height: 18px;
+	font-size: 14px;
+	color: #c8c8c8;
+	margin-bottom: 8px
+}
+
+.conversation__message_bottom {
+	padding-left: 8px;
+	padding-right: 8px
+}
+
+.conversation__message_name {
+	float: left;
+	max-width: 50%;
+	line-height: 18px;
+	color: #696969;
+	font-size: 12px;
+	display: block;
+	text-decoration: none
+}
+
+.conversation__message_time {
+	float: right;
+	max-width: 50%;
+	color: #c8c8c8;
+	line-height: 18px;
+	padding-left: 15px;
+	background: url(../img/time-icon.png) left center no-repeat;
+	font-size: 11px
+}
+
+.comment {
+	background: rgba(4, 0, 4, .5)
+}
+
+.help-content__insert_title {
+	height: auto
+}
+
+.help-content__insert_title-text.full-news-title {
+	height: auto;
+	line-height: 20px;
+	padding-top: 5px;
+	padding-bottom: 5px
+}
+
+.full-news__category {
+	text-align: right;
+	background: rgba(11, 0, 12, .7);
+	padding-bottom: 12px;
+	padding-right: 15px;
+	padding-left: 15px
+}
+
+.full-news__category p {
+	display: inline-block;
+	line-height: 18px;
+	margin-right: 8px;
+	color: #c8c8c8;
+	font-size: 12px
+}
+
+.full-news__category div {
+	display: inline-block;
+	line-height: 18px;
+	padding-left: 30px;
+	padding-right: 30px;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: 700;
+	font-size: 11px
+}
+
+.full-news__category.attention div {
+	background: #9f0102
+}
+
+.invest__content_bottom,
+.invest__list_bottom {
+	height: 45px
+}
+
+.invest__content_bottom-left,
+.invest__list_bottom-left {
+	float: left;
+	color: #c8c8c8;
+	font-size: 12px;
+	line-height: 45px;
+	margin-left: 8px
+}
+
+.invest__pagination {
+	padding-top: 12px;
+	text-align: center;
+	float: right
+}
+
+.invest__pagination a {
+	display: inline-block;
+	color: #696969;
+	font-size: 12px;
+	text-decoration: none;
+	margin-left: 15px;
+	margin-right: 15px;
+	line-height: 21px
+}
+
+.invest__pagination p {
+	display: inline-block;
+	color: #c8c8c8;
+	font-size: 12px;
+	cursor: pointer;
+	height: 25px;
+	line-height: 21px;
+	padding-left: 5px;
+	padding-right: 5px;
+	transition: all ease .3s
+}
+
+.invest__pagination p:hover {
+	background: rgba(255, 255, 255, .5)
+}
+
+.invest__pagination p.invest__pagination-active {
+	background: rgba(255, 255, 255, .5);
+	border-bottom: 4px solid #fff;
+	color: #fff
+}
+
+.price-diff {
+	position: absolute;
+	background-color: red;
+	right: 0;
+	width: 30px;
+	height: 26px;
+	z-index: 11;
+	line-height: 18px;
+	-webkit-clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 70%, 0 100%);
+	clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 70%, 0 100%)
+}
+
+.price-diff span {
+	line-height: 12px;
+	font-size: 12px;
+	color: #fff;
+	display: inline-block;
+	text-align: center;
+	width: 30px;
+	vertical-align: middle
+}
+
+@media screen and (min-width:1000px) and (max-width:1200px) {
+	.comments__message textarea {
+		width: 810px
+	}
+	.pay__buy_top-right {
+		padding-left: 15px
+	}
+}
+
+@media screen and (min-width:768px) and (max-width:999px) {
+	.comments__message textarea {
+		width: 610px
+	}
+	.pay__buy_top-left {
+		float: none;
+		width: 100%;
+		text-align: center
+	}
+	.items__tabs_middle-betcoin {
+		float: none;
+		display: inline-block
+	}
+	.items__tabs_middle-arrow {
+		display: block;
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		height: 52px;
+		background-image: url(../img/big-arrow2.png)
+	}
+	.pay__buy_top-right {
+		width: 100%;
+		padding-left: 0
+	}
+	.pay__sell_top-right-block {
+		text-align: center;
+		line-height: 30px
+	}
+	.bet-content__range {
+		display: inline-block;
+		vertical-align: middle
+	}
+	.pay__sell_top-right-block button {
+		vertical-align: middle
+	}
+	.pay__buy_top .items__tabs_middle-betcoin.many_items_version {
+		width: 100%
+	}
+	.pay__sell .pay__buy_top-right {
+		padding-left: unset;
+		display: block;
+		margin: 30px auto 0
+	}
+}
+
+@media screen and (min-width:500px) and (max-width:767px) {
+	.container.trades {
+		margin-top: 70px
+	}
+	.news__content,
+	.tickets__wrapper {
+		margin-top: 70px
+	}
+	.comments__message textarea {
+		width: 340px
+	}
+	.conversation__message {
+		width: 80%
+	}
+	.conversation__block_top-left,
+	.conversation__block_top-right {
+		max-width: 100%;
+		width: 100%
+	}
+	.pay__buy_top-left {
+		float: none;
+		width: 100%;
+		text-align: center
+	}
+	.items__tabs_middle-betcoin {
+		float: none;
+		display: inline-block
+	}
+	.items__tabs_middle-arrow {
+		display: block;
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		height: 52px;
+		background-image: url(../img/big-arrow2.png)
+	}
+	.pay__buy_top-right {
+		width: 100%;
+		padding-left: 0
+	}
+	.pay__sell_top-right-block {
+		text-align: center;
+		line-height: 30px
+	}
+	.bet-content__range {
+		display: inline-block;
+		float: none;
+		vertical-align: middle
+	}
+	.pay__sell_top-right-block button {
+		vertical-align: middle
+	}
+	.auction-open {}
+	.auction-salling__item,
+	.auction-open__item {
+		float: none;
+		display: inline-block;
+		margin-right: 3px;
+		margin-left: 3px;
+		width: 100%
+	}
+	.auction-salling__items,
+	.auction-open__items {
+		text-align: center
+	}
+	.pay__buy_top .items__tabs_middle-betcoin.many_items_version {
+		width: 100%
+	}
+	.items__tabs_bottom-top-select {
+		width: auto;
+		margin-right: 0;
+		height: 30px;
+		line-height: 30px;
+		border-bottom: 1px solid rgba(255, 255, 255, .1);
+		float: none
+	}
+	.items__tabs_bottom-top-select div select {
+		background: #000;
+		border: none;
+		outline: none;
+		color: #c8c8c8;
+		font-size: 12px;
+		width: 100px;
+		height: 30px;
+		line-height: 30px
+	}
+	.items__tabs_bottom-top-select div {
+		width: auto;
+		float: none;
+		display: inline-block;
+		line-height: 30px;
+		height: 30px;
+		margin-top: 0;
+		-ms-background-position-y: 14px;
+		background-position-y: 14px
+	}
+	.items__tabs_bottom-top-select.items__tabs_bottom-top-select_2 {
+		float: right
+	}
+	.items__tabs_bottom-top-select.items__tabs_bottom-top-select_1 {
+		float: left
+	}
+	.items__tabs_bottom-top-search {
+		width: 100%;
+		text-align: center;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		margin-right: 0
+	}
+	.auction-salling__title {
+		height: unset
+	}
+	.bet-content__range_wraper {
+		width: 248px
+	}
+	.bet-content__range_wraper input[type=range]::-webkit-slider-thumb {
+		height: 21px;
+		width: 21px;
+		margin-top: -10px
+	}
+	.bet-content__range_wraper input[type=range]::-moz-range-thumb {
+		height: 21px;
+		width: 21px;
+		margin-top: -10px
+	}
+	.bet-content__range_wraper input[type=range]::-ms-thumb {
+		height: 21px;
+		width: 21px;
+		margin-top: -10px
+	}
+	.bet-content__range-button {
+		display: flex
+	}
+	.pay__sell .pay__buy_top-right {
+		padding-left: unset;
+		display: block;
+		margin: 30px auto 0
+	}
+}
+
+@media screen and (max-width:499px) {
+	.container.trades {
+		margin-top: 70px
+	}
+	.news__content,
+	.tickets__wrapper {
+		margin-top: 70px
+	}
+	.comments__message textarea {
+		width: 100%
+	}
+	.comments__message a {
+		margin-top: 10px;
+		margin-left: 0
+	}
+	.conversation__block_top-left,
+	.conversation__block_top-right,
+	.conversation__message_name,
+	.conversation__message_time {
+		max-width: 100%;
+		width: 100%
+	}
+	.conversation__message {
+		width: 90%
+	}
+	.conversation .container {
+		margin-left: 10px;
+		width: calc(100% - 20px)
+	}
+	.pay__buy_top-left {
+		float: none;
+		width: 100%;
+		text-align: center
+	}
+	.items__tabs_middle-betcoin {
+		float: none;
+		display: inline-block
+	}
+	.items__tabs_middle-arrow {
+		display: block;
+		float: none;
+		width: 100%;
+		margin-left: 0;
+		margin-right: 0;
+		margin-top: 10px;
+		margin-bottom: 10px;
+		height: 52px;
+		background-image: url(../img/big-arrow2.png)
+	}
+	.auction-open {}
+	.auction-tabs .pay__tab_title {
+		padding-right: 5px;
+		margin-left: 0;
+		margin-right: 0
+	}
+	.pay__buy_top-right {
+		width: 100%;
+		padding-left: 0
+	}
+	.pay__sell_top-right-block {
+		text-align: center;
+		line-height: 30px
+	}
+	.bet-content__range {
+		display: inline-block;
+		float: none;
+		vertical-align: middle;
+		margin-bottom: 5px
+	}
+	.pay__sell_top-right-block button {
+		vertical-align: middle;
+		float: none
+	}
+	.action-modal button.cancel,
+	.action-modal button.update {
+		float: none
+	}
+	.items__tabs_bottom-tabs {
+		height: auto
+	}
+	.bet-content__range_wraper {
+		width: 148px
+	}
+	.auction-open__info p {
+		margin-right: 0;
+		width: 100%
+	}
+	.auction-open__info {
+		padding-left: 15px;
+		padding-right: 15px
+	}
+	.auction-salling__item,
+	.auction-open__item {
+		float: none;
+		display: inline-block;
+		margin-right: 3px;
+		margin-left: 3px;
+		width: 100%
+	}
+	.auction-salling__items,
+	.auction-open__items {
+		text-align: center
+	}
+	.action-modal .game_item {
+		margin-top: 45px
+	}
+	.pay__buy_top .items__tabs_middle-betcoin.many_items_version {
+		width: 100%
+	}
+	.items__tabs_bottom-top-select {
+		width: auto;
+		margin-right: 0;
+		height: 30px;
+		line-height: 30px;
+		border-bottom: 1px solid rgba(255, 255, 255, .1);
+		float: none
+	}
+	.items__tabs_bottom-top-select div select {
+		background: #000;
+		border: none;
+		outline: none;
+		color: #c8c8c8;
+		font-size: 12px;
+		width: 100px;
+		height: 30px;
+		line-height: 30px
+	}
+	.items__tabs_bottom-top-select div {
+		width: auto;
+		float: none;
+		display: inline-block;
+		line-height: 30px;
+		height: 30px;
+		margin-top: 0;
+		-ms-background-position-y: 14px;
+		background-position-y: 14px
+	}
+	.items__tabs_bottom-top-select.items__tabs_bottom-top-select_2 {
+		float: right
+	}
+	.items__tabs_bottom-top-select.items__tabs_bottom-top-select_1 {
+		float: left
+	}
+	.items__tabs_bottom-top-search {
+		width: 100%;
+		text-align: center;
+		padding-top: 3px;
+		padding-bottom: 3px;
+		margin-right: 0
+	}
+	.pay__sell .pay__buy_top-right {
+		padding-left: unset
+	}
+	.items__tabs_bottom-top-sort {
+		margin-right: 10px
+	}
+	.auction-salling__item {
+		width: 100%
+	}
+	.auction-salling__title {
+		height: unset
+	}
+	.bet-content__range_value {
+		float: right
+	}
+	.bet-content__range_wraper input[type=range]::-webkit-slider-thumb {
+		height: 21px;
+		width: 21px;
+		margin-top: -10px
+	}
+	.bet-content__range_wraper input[type=range]::-moz-range-thumb {
+		height: 21px;
+		width: 21px;
+		margin-top: -10px
+	}
+	.bet-content__range_wraper input[type=range]::-ms-thumb {
+		height: 21px;
+		width: 21px;
+		margin-top: -10px
+	}
+	.bet-content__range-button {
+		display: flex
+	}
+	.pay__sell .pay__buy_top-right {
+		padding-left: unset;
+		display: block;
+		margin: 30px auto 0
+	}
+}

@@ -41,7 +41,8 @@
 	position: absolute;
 	left: 0;
 	top: 0;
-	height: 180px;
+	/*height: 180px;*/
+	height: 100%;
 	width: auto;
 	z-index: 1;
 	opacity: .5
